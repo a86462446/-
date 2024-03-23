@@ -7,15 +7,58 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A308A9792B285FF10021F8B5 /* storage.png in Resources */ = {isa = PBXBuildFile; fileRef = A308A9772B285FF10021F8B5 /* storage.png */; };
+		A308A97A2B285FF10021F8B5 /* storage_full.png in Resources */ = {isa = PBXBuildFile; fileRef = A308A9782B285FF10021F8B5 /* storage_full.png */; };
+		A308A97C2B2993E90021F8B5 /* refresh.png in Resources */ = {isa = PBXBuildFile; fileRef = A308A97B2B2993E80021F8B5 /* refresh.png */; };
+		A308A97E2B2994730021F8B5 /* 主頁國文.png in Resources */ = {isa = PBXBuildFile; fileRef = A308A97D2B2994730021F8B5 /* 主頁國文.png */; };
+		A3148B9C2B1CDED400885C4C /* UploadViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3148B9B2B1CDED400885C4C /* UploadViewController.swift */; };
+		A3241AD22B32D89D008A8CC5 /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3241AD12B32D89D008A8CC5 /* SettingViewController.swift */; };
+		A32784922B175FC600119C0A /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A32784912B175FC600119C0A /* HomeViewController.swift */; };
+		A32784942B17682700119C0A /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A32784932B17682700119C0A /* LoginViewController.swift */; };
 		A352F1332B0DC8D600F7515D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A352F1322B0DC8D600F7515D /* AppDelegate.swift */; };
 		A352F1352B0DC8D600F7515D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A352F1342B0DC8D600F7515D /* SceneDelegate.swift */; };
 		A352F1372B0DC8D600F7515D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A352F1362B0DC8D600F7515D /* ViewController.swift */; };
 		A352F13A2B0DC8D600F7515D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A352F1382B0DC8D600F7515D /* Main.storyboard */; };
 		A352F13C2B0DC8D900F7515D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A352F13B2B0DC8D900F7515D /* Assets.xcassets */; };
 		A352F13F2B0DC8D900F7515D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A352F13D2B0DC8D900F7515D /* LaunchScreen.storyboard */; };
+		A3BF99572B274D52007BA92E /* 資訊系統漏洞經驗談.png in Resources */ = {isa = PBXBuildFile; fileRef = A3BF99472B274D51007BA92E /* 資訊系統漏洞經驗談.png */; };
+		A3BF99582B274D52007BA92E /* logo1024.png in Resources */ = {isa = PBXBuildFile; fileRef = A3BF99482B274D51007BA92E /* logo1024.png */; };
+		A3BF99592B274D52007BA92E /* 國文.png in Resources */ = {isa = PBXBuildFile; fileRef = A3BF99492B274D51007BA92E /* 國文.png */; };
+		A3BF995A2B274D52007BA92E /* arrange2.png in Resources */ = {isa = PBXBuildFile; fileRef = A3BF994A2B274D51007BA92E /* arrange2.png */; };
+		A3BF995B2B274D52007BA92E /* 羅馬.png in Resources */ = {isa = PBXBuildFile; fileRef = A3BF994B2B274D51007BA92E /* 羅馬.png */; };
+		A3BF995C2B274D52007BA92E /* 【游翰堂展覽】藝想天開：蕭世瓊、.png in Resources */ = {isa = PBXBuildFile; fileRef = A3BF994C2B274D51007BA92E /* 【游翰堂展覽】藝想天開：蕭世瓊、.png */; };
+		A3BF995D2B274D52007BA92E /* 相機.png in Resources */ = {isa = PBXBuildFile; fileRef = A3BF994D2B274D51007BA92E /* 相機.png */; };
+		A3BF995E2B274D52007BA92E /* arrange1.png in Resources */ = {isa = PBXBuildFile; fileRef = A3BF994E2B274D51007BA92E /* arrange1.png */; };
+		A3BF995F2B274D52007BA92E /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = A3BF994F2B274D51007BA92E /* logo.png */; };
+		A3BF99602B274D52007BA92E /* picture.png in Resources */ = {isa = PBXBuildFile; fileRef = A3BF99502B274D51007BA92E /* picture.png */; };
+		A3BF99612B274D52007BA92E /* 【舞動樂聲~戀戀羅馬】.png in Resources */ = {isa = PBXBuildFile; fileRef = A3BF99512B274D51007BA92E /* 【舞動樂聲~戀戀羅馬】.png */; };
+		A3BF99622B274D52007BA92E /* ChatGPT商業工具實作坊.png in Resources */ = {isa = PBXBuildFile; fileRef = A3BF99522B274D51007BA92E /* ChatGPT商業工具實作坊.png */; };
+		A3BF99632B274D52007BA92E /* gpt.png in Resources */ = {isa = PBXBuildFile; fileRef = A3BF99532B274D52007BA92E /* gpt.png */; };
+		A3BF99642B274D52007BA92E /* 相機體驗日.png in Resources */ = {isa = PBXBuildFile; fileRef = A3BF99542B274D52007BA92E /* 相機體驗日.png */; };
+		A3BF99652B274D52007BA92E /* 資訊系統漏洞.png in Resources */ = {isa = PBXBuildFile; fileRef = A3BF99552B274D52007BA92E /* 資訊系統漏洞.png */; };
+		A3BF99662B274D52007BA92E /* arrange3.png in Resources */ = {isa = PBXBuildFile; fileRef = A3BF99562B274D52007BA92E /* arrange3.png */; };
+		A3D28ED42B2319A900C934D5 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3D28ED32B2319A900C934D5 /* RegisterViewController.swift */; };
+		A3D28ED82B23205200C934D5 /* PersonalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3D28ED72B23205200C934D5 /* PersonalViewController.swift */; };
+		A3E0A8152B2D7120008E0059 /* 主頁相機.png in Resources */ = {isa = PBXBuildFile; fileRef = A3E0A8142B2D7120008E0059 /* 主頁相機.png */; };
+		A3E0A8192B2D75CB008E0059 /* 主頁羅馬.png in Resources */ = {isa = PBXBuildFile; fileRef = A3E0A8162B2D75CB008E0059 /* 主頁羅馬.png */; };
+		A3E0A81A2B2D75CB008E0059 /* 主頁chatgpt.png in Resources */ = {isa = PBXBuildFile; fileRef = A3E0A8172B2D75CB008E0059 /* 主頁chatgpt.png */; };
+		A3E0A81B2B2D75CB008E0059 /* 主頁資訊.png in Resources */ = {isa = PBXBuildFile; fileRef = A3E0A8182B2D75CB008E0059 /* 主頁資訊.png */; };
+		A3E0A81D2B2D7EFF008E0059 /* green bar.png in Resources */ = {isa = PBXBuildFile; fileRef = A3E0A81C2B2D7EFE008E0059 /* green bar.png */; };
+		A3E0A8222B2D92D7008E0059 /* calendar.png in Resources */ = {isa = PBXBuildFile; fileRef = A3E0A81E2B2D92D7008E0059 /* calendar.png */; };
+		A3E0A8232B2D92D7008E0059 /* location.png in Resources */ = {isa = PBXBuildFile; fileRef = A3E0A81F2B2D92D7008E0059 /* location.png */; };
+		A3E0A8242B2D92D7008E0059 /* frame.png in Resources */ = {isa = PBXBuildFile; fileRef = A3E0A8202B2D92D7008E0059 /* frame.png */; };
+		A3E0A8252B2D92D7008E0059 /* selection.png in Resources */ = {isa = PBXBuildFile; fileRef = A3E0A8212B2D92D7008E0059 /* selection.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A308A9772B285FF10021F8B5 /* storage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = storage.png; sourceTree = "<group>"; };
+		A308A9782B285FF10021F8B5 /* storage_full.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = storage_full.png; sourceTree = "<group>"; };
+		A308A97B2B2993E80021F8B5 /* refresh.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = refresh.png; sourceTree = "<group>"; };
+		A308A97D2B2994730021F8B5 /* 主頁國文.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "主頁國文.png"; sourceTree = "<group>"; };
+		A3148B9B2B1CDED400885C4C /* UploadViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UploadViewController.swift; sourceTree = "<group>"; };
+		A3241AD12B32D89D008A8CC5 /* SettingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingViewController.swift; sourceTree = "<group>"; };
+		A32784912B175FC600119C0A /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		A32784932B17682700119C0A /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		A352F12F2B0DC8D600F7515D /* FengChiaActivities.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FengChiaActivities.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A352F1322B0DC8D600F7515D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A352F1342B0DC8D600F7515D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +67,33 @@
 		A352F13B2B0DC8D900F7515D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A352F13E2B0DC8D900F7515D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A352F1402B0DC8D900F7515D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A3BF99472B274D51007BA92E /* 資訊系統漏洞經驗談.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "資訊系統漏洞經驗談.png"; sourceTree = "<group>"; };
+		A3BF99482B274D51007BA92E /* logo1024.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo1024.png; sourceTree = "<group>"; };
+		A3BF99492B274D51007BA92E /* 國文.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "國文.png"; sourceTree = "<group>"; };
+		A3BF994A2B274D51007BA92E /* arrange2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = arrange2.png; sourceTree = "<group>"; };
+		A3BF994B2B274D51007BA92E /* 羅馬.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "羅馬.png"; sourceTree = "<group>"; };
+		A3BF994C2B274D51007BA92E /* 【游翰堂展覽】藝想天開：蕭世瓊、.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "【游翰堂展覽】藝想天開：蕭世瓊、.png"; sourceTree = "<group>"; };
+		A3BF994D2B274D51007BA92E /* 相機.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "相機.png"; sourceTree = "<group>"; };
+		A3BF994E2B274D51007BA92E /* arrange1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = arrange1.png; sourceTree = "<group>"; };
+		A3BF994F2B274D51007BA92E /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
+		A3BF99502B274D51007BA92E /* picture.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = picture.png; sourceTree = "<group>"; };
+		A3BF99512B274D51007BA92E /* 【舞動樂聲~戀戀羅馬】.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "【舞動樂聲~戀戀羅馬】.png"; sourceTree = "<group>"; };
+		A3BF99522B274D51007BA92E /* ChatGPT商業工具實作坊.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ChatGPT商業工具實作坊.png"; sourceTree = "<group>"; };
+		A3BF99532B274D52007BA92E /* gpt.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gpt.png; sourceTree = "<group>"; };
+		A3BF99542B274D52007BA92E /* 相機體驗日.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "相機體驗日.png"; sourceTree = "<group>"; };
+		A3BF99552B274D52007BA92E /* 資訊系統漏洞.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "資訊系統漏洞.png"; sourceTree = "<group>"; };
+		A3BF99562B274D52007BA92E /* arrange3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = arrange3.png; sourceTree = "<group>"; };
+		A3D28ED32B2319A900C934D5 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		A3D28ED72B23205200C934D5 /* PersonalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonalViewController.swift; sourceTree = "<group>"; };
+		A3E0A8142B2D7120008E0059 /* 主頁相機.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "主頁相機.png"; sourceTree = "<group>"; };
+		A3E0A8162B2D75CB008E0059 /* 主頁羅馬.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "主頁羅馬.png"; sourceTree = "<group>"; };
+		A3E0A8172B2D75CB008E0059 /* 主頁chatgpt.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "主頁chatgpt.png"; sourceTree = "<group>"; };
+		A3E0A8182B2D75CB008E0059 /* 主頁資訊.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "主頁資訊.png"; sourceTree = "<group>"; };
+		A3E0A81C2B2D7EFE008E0059 /* green bar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "green bar.png"; sourceTree = "<group>"; };
+		A3E0A81E2B2D92D7008E0059 /* calendar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = calendar.png; sourceTree = "<group>"; };
+		A3E0A81F2B2D92D7008E0059 /* location.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = location.png; sourceTree = "<group>"; };
+		A3E0A8202B2D92D7008E0059 /* frame.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = frame.png; sourceTree = "<group>"; };
+		A3E0A8212B2D92D7008E0059 /* selection.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = selection.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +110,7 @@
 		A352F1262B0DC8D500F7515D = {
 			isa = PBXGroup;
 			children = (
+				A352F1462B1472AB00F7515D /* images */,
 				A352F1312B0DC8D600F7515D /* FengChiaActivities */,
 				A352F1302B0DC8D600F7515D /* Products */,
 			);
@@ -59,12 +130,54 @@
 				A352F1322B0DC8D600F7515D /* AppDelegate.swift */,
 				A352F1342B0DC8D600F7515D /* SceneDelegate.swift */,
 				A352F1362B0DC8D600F7515D /* ViewController.swift */,
+				A32784912B175FC600119C0A /* HomeViewController.swift */,
+				A32784932B17682700119C0A /* LoginViewController.swift */,
+				A3148B9B2B1CDED400885C4C /* UploadViewController.swift */,
+				A3D28ED32B2319A900C934D5 /* RegisterViewController.swift */,
+				A3D28ED72B23205200C934D5 /* PersonalViewController.swift */,
+				A3241AD12B32D89D008A8CC5 /* SettingViewController.swift */,
 				A352F1382B0DC8D600F7515D /* Main.storyboard */,
 				A352F13B2B0DC8D900F7515D /* Assets.xcassets */,
 				A352F13D2B0DC8D900F7515D /* LaunchScreen.storyboard */,
 				A352F1402B0DC8D900F7515D /* Info.plist */,
 			);
 			path = FengChiaActivities;
+			sourceTree = "<group>";
+		};
+		A352F1462B1472AB00F7515D /* images */ = {
+			isa = PBXGroup;
+			children = (
+				A308A97D2B2994730021F8B5 /* 主頁國文.png */,
+				A308A97B2B2993E80021F8B5 /* refresh.png */,
+				A3BF994C2B274D51007BA92E /* 【游翰堂展覽】藝想天開：蕭世瓊、.png */,
+				A3BF99512B274D51007BA92E /* 【舞動樂聲~戀戀羅馬】.png */,
+				A3BF994D2B274D51007BA92E /* 相機.png */,
+				A3BF99542B274D52007BA92E /* 相機體驗日.png */,
+				A3BF99492B274D51007BA92E /* 國文.png */,
+				A3BF99552B274D52007BA92E /* 資訊系統漏洞.png */,
+				A3BF99472B274D51007BA92E /* 資訊系統漏洞經驗談.png */,
+				A3BF994B2B274D51007BA92E /* 羅馬.png */,
+				A3BF994E2B274D51007BA92E /* arrange1.png */,
+				A3BF994A2B274D51007BA92E /* arrange2.png */,
+				A3BF99562B274D52007BA92E /* arrange3.png */,
+				A3BF99522B274D51007BA92E /* ChatGPT商業工具實作坊.png */,
+				A3BF99532B274D52007BA92E /* gpt.png */,
+				A3BF994F2B274D51007BA92E /* logo.png */,
+				A3BF99482B274D51007BA92E /* logo1024.png */,
+				A3BF99502B274D51007BA92E /* picture.png */,
+				A3E0A8142B2D7120008E0059 /* 主頁相機.png */,
+				A308A9782B285FF10021F8B5 /* storage_full.png */,
+				A308A9772B285FF10021F8B5 /* storage.png */,
+				A3E0A8182B2D75CB008E0059 /* 主頁資訊.png */,
+				A3E0A8162B2D75CB008E0059 /* 主頁羅馬.png */,
+				A3E0A8172B2D75CB008E0059 /* 主頁chatgpt.png */,
+				A3E0A81C2B2D7EFE008E0059 /* green bar.png */,
+				A3E0A81E2B2D92D7008E0059 /* calendar.png */,
+				A3E0A8202B2D92D7008E0059 /* frame.png */,
+				A3E0A81F2B2D92D7008E0059 /* location.png */,
+				A3E0A8212B2D92D7008E0059 /* selection.png */,
+			);
+			path = images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -95,7 +208,7 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1430;
-				LastUpgradeCheck = 1430;
+				LastUpgradeCheck = 1500;
 				TargetAttributes = {
 					A352F12E2B0DC8D600F7515D = {
 						CreatedOnToolsVersion = 14.3.1;
@@ -125,9 +238,38 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A3BF995D2B274D52007BA92E /* 相機.png in Resources */,
+				A3BF99662B274D52007BA92E /* arrange3.png in Resources */,
+				A3BF995A2B274D52007BA92E /* arrange2.png in Resources */,
+				A308A9792B285FF10021F8B5 /* storage.png in Resources */,
+				A3E0A81B2B2D75CB008E0059 /* 主頁資訊.png in Resources */,
+				A3BF99582B274D52007BA92E /* logo1024.png in Resources */,
+				A3E0A8252B2D92D7008E0059 /* selection.png in Resources */,
+				A3BF99642B274D52007BA92E /* 相機體驗日.png in Resources */,
+				A3BF99602B274D52007BA92E /* picture.png in Resources */,
+				A3BF99652B274D52007BA92E /* 資訊系統漏洞.png in Resources */,
+				A3E0A8222B2D92D7008E0059 /* calendar.png in Resources */,
+				A3BF995B2B274D52007BA92E /* 羅馬.png in Resources */,
+				A3E0A81A2B2D75CB008E0059 /* 主頁chatgpt.png in Resources */,
+				A3BF99632B274D52007BA92E /* gpt.png in Resources */,
+				A3BF99612B274D52007BA92E /* 【舞動樂聲~戀戀羅馬】.png in Resources */,
+				A308A97E2B2994730021F8B5 /* 主頁國文.png in Resources */,
+				A308A97C2B2993E90021F8B5 /* refresh.png in Resources */,
+				A3BF99622B274D52007BA92E /* ChatGPT商業工具實作坊.png in Resources */,
 				A352F13F2B0DC8D900F7515D /* LaunchScreen.storyboard in Resources */,
+				A3E0A8192B2D75CB008E0059 /* 主頁羅馬.png in Resources */,
+				A3E0A8242B2D92D7008E0059 /* frame.png in Resources */,
+				A3E0A81D2B2D7EFF008E0059 /* green bar.png in Resources */,
+				A3BF995C2B274D52007BA92E /* 【游翰堂展覽】藝想天開：蕭世瓊、.png in Resources */,
 				A352F13C2B0DC8D900F7515D /* Assets.xcassets in Resources */,
+				A3E0A8232B2D92D7008E0059 /* location.png in Resources */,
 				A352F13A2B0DC8D600F7515D /* Main.storyboard in Resources */,
+				A3BF995F2B274D52007BA92E /* logo.png in Resources */,
+				A3BF99572B274D52007BA92E /* 資訊系統漏洞經驗談.png in Resources */,
+				A308A97A2B285FF10021F8B5 /* storage_full.png in Resources */,
+				A3BF99592B274D52007BA92E /* 國文.png in Resources */,
+				A3E0A8152B2D7120008E0059 /* 主頁相機.png in Resources */,
+				A3BF995E2B274D52007BA92E /* arrange1.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -139,8 +281,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				A352F1372B0DC8D600F7515D /* ViewController.swift in Sources */,
+				A3148B9C2B1CDED400885C4C /* UploadViewController.swift in Sources */,
+				A3D28ED82B23205200C934D5 /* PersonalViewController.swift in Sources */,
+				A3D28ED42B2319A900C934D5 /* RegisterViewController.swift in Sources */,
 				A352F1332B0DC8D600F7515D /* AppDelegate.swift in Sources */,
+				A3241AD22B32D89D008A8CC5 /* SettingViewController.swift in Sources */,
 				A352F1352B0DC8D600F7515D /* SceneDelegate.swift in Sources */,
+				A32784942B17682700119C0A /* LoginViewController.swift in Sources */,
+				A32784922B175FC600119C0A /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -202,6 +350,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -262,6 +411,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -289,6 +439,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = FengChiaActivities/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "逢甲活動通";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -316,6 +467,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = FengChiaActivities/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "逢甲活動通";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
